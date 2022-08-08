@@ -11,16 +11,16 @@
 
 .gallery {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
   gap: 25px;
-  margin: 0 27%;
+  margin: 0 4%;
+  justify-content: center;
 }
 
 header{
     height: 150px;
     display: flex;
     justify-content: center;
-
 }
 
 input{
@@ -33,4 +33,6 @@ input{
   padding: 20px;
   font-size: 20px;
 }
+
+
 
